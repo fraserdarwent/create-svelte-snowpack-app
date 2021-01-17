@@ -1,6 +1,7 @@
 <script>
   import {fade} from 'svelte/transition';
   const message = 'Hello, my Svelte Snowpack world!!';
+  import icon from './favicon.png';
 </script>
 
 <style type="text/scss">
@@ -21,6 +22,11 @@
     background-color: dodgerblue;
     color: white;
   }
+
+  img {
+    max-width: 100px;
+  }
 </style>
 
 <h1 transition:fade>{message}</h1>
+<img src={icon} alt="Svelte" />
