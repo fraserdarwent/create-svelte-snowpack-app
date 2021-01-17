@@ -1,0 +1,17 @@
+{
+  "name": "create-svelte-snowpack-app",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "develop": "snowpack dev --reload",
+    "build": "snowpack build --reload"
+  },
+  "dependencies": {
+    "@snowpack/plugin-svelte": "^3.5.2",
+    "prettier": "^2.2.1",
+    "prettier-airbnb-config": "^1.0.0",
+    "sass": "^1.32.4",
+    "snowpack": "^3.0.11",
+    "svelte": "^3.31.2"
+  }
+}
