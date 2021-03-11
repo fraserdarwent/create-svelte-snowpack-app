@@ -3,15 +3,19 @@
   "version": "1.0.0",
   "license": "MIT",
   "scripts": {
-    "develop": "snowpack dev --reload",
+    "develop": "snowpack dev --reload --port 5000",
     "build": "snowpack build --reload"
   },
-  "dependencies": {
-    "@snowpack/plugin-svelte": "^3.5.2",
+  "devDependencies": {
+    "@yarnpkg/pnpify": "^2.4.0",
     "prettier": "^2.2.1",
     "prettier-airbnb-config": "^1.0.0",
+    "svelte-hmr": "^0.12.9"
+  },
+  "dependencies": {
     "sass": "^1.32.4",
-    "snowpack": "^3.0.11",
-    "svelte": "^3.31.2"
+    "snowpack": "^3.0.13",
+    "svelte": "^3.31.2",
+    "@snowpack/plugin-svelte": "^3.5.2"
   }
 }
