@@ -13,9 +13,9 @@
     "svelte-hmr": "^0.12.9"
   },
   "dependencies": {
+    "@snowpack/plugin-svelte": "^3.5.2",
     "sass": "^1.32.4",
     "snowpack": "^3.0.13",
-    "svelte": "^3.31.2",
-    "@snowpack/plugin-svelte": "^3.5.2"
+    "svelte": "^3.31.2"
   }
 }
